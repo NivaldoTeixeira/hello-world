@@ -1,0 +1,34 @@
+CLI Commands
+
+
+pwd >> prints the path (Print Working Directory)
+
+clear >> cleans the prompt
+
+ls >> lists what is in the directory
+	ls -a >> lists hidden and unhidden countents
+	ls -al >> also lists the details
+
+cd >> moves between directories
+	cd >> go to the home directory
+	cd .. >> go one directory up
+	cd Directory_A >> enters the Directory_A
+
+mkdir New_Directory >> creates a new directory "New_Directory"
+
+touch new_file >> creates an empty file "new_file"
+
+cp >> copies files 
+	cp test_file Documents >> copies test_file into Documents
+	cp -r Documents More_Documents >> "recursive" - copies all Documents' files into More_Documents
+
+rm >> remove files
+	rm test_file >> remove test_file from the working directory
+	rm -r Documents >> remove all files from the Documents directory. DOESN'T UNDO!
+
+mv new_file Documents >> move the file "new_file" to Documents
+	mv new_file renamed_fike >> renames "new_file" to "renamed_file"
+
+echo >> prints on the prompt - it is like Java's sout
+
+date >> prints the date
